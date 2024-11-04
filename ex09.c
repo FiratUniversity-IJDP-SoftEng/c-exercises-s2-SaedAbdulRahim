@@ -12,7 +12,7 @@ int main() {
         scanf("%d", &number);
         
         if (number == -1) {
-            break; // Exit the loop when -1 is entered
+            break;
         }
 
         sum += number;
@@ -20,7 +20,7 @@ int main() {
     }
 
     if (count > 0) {
-        average = sum / (float)count; // Calculate average as float for precision
+        average = sum / (float)count;
         printf("\nCount = %d", count);
         printf("\nSum = %d", sum);
         printf("\nAverage = %.2f\n", average);
